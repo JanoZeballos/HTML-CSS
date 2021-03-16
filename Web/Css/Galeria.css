@@ -1,0 +1,164 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:500,600,700,100,800,900,400,200,300);
+@import url(http://fonts.googleapis.com/css?family=Playball);
+
+body, html{
+	font-family: 'Raleway', sans-serif;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.blanco{
+    text-decoration: underline;
+}
+nav{
+    z-index: 1;
+}
+/* Imagenes */  
+.fotos{
+    text-align: center;
+    padding-top: 3em;
+    width: 100%;
+    height: auto;
+}
+/* Imagenes - Fin */
+.background20{
+	background: url(../Galeria/img/08.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #cfcfcf;
+    padding: 27%;
+}
+/* Fotos Syndra */
+.foto1{
+    display: inline-block;
+    background-color: #021a4a;
+    padding-bottom: 5em;
+}
+.syndra{
+    padding-top: 5em;
+    padding-bottom: 5em;
+    text-align: center;
+}
+.figura{
+    width: 600px;
+}
+.syndratexto{
+    width: 500px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 2em;
+}
+.syndratitulo{
+    text-align: center;
+    margin-top: 2em;
+    color: white;
+    text-decoration: underline;
+    font-size: 25px;
+}
+.imagensilueta{
+    display: inline-block;
+    padding-top: 8em;
+    padding-bottom: 7em;
+}
+/* Foto Syndra - Fin */
+/* Fotos Tresh */
+.tresh{
+    position: relative;
+    bottom: 80px;
+    padding-bottom: 5em;
+    text-align: center;
+}
+.foto2{
+    display: inline-block;
+    background-color: #021a4a;
+    padding-bottom: 5em;
+}
+.figura2{
+    width: 600px;
+}
+.figura3{
+    width: 500px;
+    margin-right: 6em;
+}
+.treshtexto{
+    width: 500px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 2em;
+}
+.treshtitulo{
+    text-align: center;
+    margin-top: 2em;
+    color: white;
+    text-decoration: underline;
+    font-size: 25px;
+}
+.imagensilueta2{
+    display: inline-block;
+    padding-bottom: 7em;
+}
+/* Foto Tresh - Fin */
+/* Imagen + Firma */
+.ashe{
+    width: 600px;
+    display: inline-block;
+    text-align: center;
+}
+.riven{
+    width: 600px;
+    display: inline-block;
+    position: absolute;
+}
+.contenedor2img{
+    position: relative;
+    right: 18.7em;
+}
+/* Imagen + Firma - Fin */
+/* Imagen Efecto */
+.figura:hover{
+    filter: grayscale(100%);
+    transition: all 2s;
+}
+.figura2:hover{
+    filter: grayscale(100%);
+    transition: all 2s;
+}
+.figura3:hover{
+    transform: rotate(7deg);
+    filter: grayscale(100%);
+    transition: all 2s;
+}
+.ashe:hover{
+    filter: grayscale(100%);
+    transition: all 2s;
+}
+.riven:hover{
+    filter: grayscale(100%);
+    transition: all 2s;
+}
+/* Imagen Efecto Active */
+.figura:active{
+    opacity: 0.5;
+    transition: all 2s;
+}
+.figura2:active{
+    opacity: 0.5;
+    transition: all 2s;
+}
+.figura3:active{
+    opacity: 0.5;
+    transition: all 2s;
+}
+.ashe:active{
+    opacity: 0.5;
+    transition: all 2s;
+}
+.riven:active{
+    opacity: 0.5;
+    transition: all 2s;
+}

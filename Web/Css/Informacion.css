@@ -1,0 +1,77 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:500,600,700,100,800,900,400,200,300);
+@import url(http://fonts.googleapis.com/css?family=Playball);
+
+a{
+	font-family: 'Raleway', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #11162a;
+}
+/* Fondo Principal */
+.background9{
+	background: url(../Informacion/img/19.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #cfcfcf;
+    padding: 27%;
+}
+/* Fondo Principal - Fin */
+#principal{
+    background-color: white;
+}
+/* Columnas */
+#general{
+    font-size: 16px;
+    margin: 0 auto;
+    width: 960px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.columnas{
+    width: 469px;
+    color: white;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    margin-right: 1em;
+    height: auto;
+}
+.columnas2 {  
+    width: 469px;
+    color: white;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    height: auto;
+}
+/* Columnas - Fin */
+/* Texto + Imagen */
+.background10{
+	background: url(../Informacion/img/05.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #cfcfcf;
+    display: inline-block;
+    padding-bottom: 55%;
+    width: 100%;
+}
+/* Texto + Imagen - Fin */
+@media all and (max-width: 500px) {
+  #general {
+    flex-direction: column;
+    font-size: 15px;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .columnas2{
+    margin-top: -5em;
+  }
+}

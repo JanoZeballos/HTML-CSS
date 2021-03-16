@@ -1,0 +1,29 @@
+label {
+    display: block;
+}
+input{
+    width: 300px;
+    padding: 2em;
+    text-align: center;
+}
+.error{
+    background-color: #F55;
+}
+.success{
+    background-color: #5F5;
+}
+.formula{
+    display: block;
+    text-align: center;
+    padding: 15%;
+}
+#mesage{
+    width: 300px;
+    padding: 2em;
+}
+#submit{
+    display: block;
+    width: 300px;
+    padding: 2em;
+    margin-top: 2em;
+}

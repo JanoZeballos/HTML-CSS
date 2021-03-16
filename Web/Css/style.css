@@ -1,0 +1,349 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:500,600,700,100,800,900,400,200,300);
+@import url(http://fonts.googleapis.com/css?family=Playball);
+
+body, html{
+	font-family: 'Raleway', sans-serif;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* Barra de Navegacion */
+nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.top{
+    float: right;
+}
+.top{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.top:hover{
+    text-decoration: underline;
+    transition: all 0.5s;
+}   
+/* Para que no se vea el a en violeta */
+.navegacion{
+    color: white;
+    text-decoration: none;
+}
+/* Para que no se vea el a en violeta - Fin */
+/* Inicio Nav */
+.trabajos{
+    float: left;
+}
+.trabajos{
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none; 
+}
+.trabajos:hover {
+    animation-name: multicolor;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+/* Inicio Nav - Fin */
+/* Barra de Navegacion - Fin */
+/* Fondo Principal */
+.background{
+	background: url(../img/16.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #cfcfcf;
+    padding: 22%;
+}
+.titulos{
+	text-align: center;
+    color: white;
+}
+.videos{
+    text-align: center;
+}
+.botonvideo{
+    background-color: transparent;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 2em;
+    animation-name: multicolor2;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+}
+.botonvideo:hover{
+    background-color: black;
+    color: white;
+}
+/* Fondo Principal - Fin */
+/* Texto Principal */
+.titulo-informacion{
+    margin-bottom: 20px;
+	font-size: 25px;
+	font-weight: 700;
+    text-decoration: underline;
+}
+#principal{
+    padding: 2em;
+    font-size: 16px;
+    text-align: center;
+}
+#principal p{
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+/* Texto Principal - Fin */
+/* Portfolio */
+.titulo-informacion2{
+	font-size: 25px;
+	font-weight: 700;
+    text-align: center;
+    color: white;
+    margin-top: -45px;
+}
+.background2{
+	background: url(../img/17.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #cfcfcf;
+    padding-top: 15%
+}
+.azul{
+    background: #11162a;
+    margin-top: 4em;
+    position: relative;
+    top: 9em;
+    padding-bottom: 5em;
+}
+.tituloportfolio{
+    text-align: center;
+    margin-bottom: 20px;
+	font-size: 40px;
+	font-weight: 700;
+    text-decoration: underline;
+}
+.textocentral{
+    text-align: center;
+}
+.textoportfolio{
+    padding: 2em;
+}
+.textoportfolio p{
+    color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    margin-top: 5em;
+    font-size: 20px;
+}
+/* Portfolio - Fin */
+/* Texto y Imagen 1 */
+.background3{
+	background: url(../img/14.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #cfcfcf;
+    padding: 15% 0 15% 0;
+}
+#derecha{
+   text-align: right;
+}
+
+#derecha h1{
+   color: black;
+   max-width: 600px;
+   display: block;
+   margin-left: 50%;
+   font-size: 20px;
+   text-decoration: underline;
+   margin-bottom: 2em; 
+}
+.texto1{
+    color: black;    
+    max-width: 600px;
+    display: block;
+    margin-left: 60%;
+    text-align: right;
+    word-wrap: break-word;
+    margin-right: 20px;
+}
+.texto1a{
+    color: black;    
+    max-width: 600px;
+    display: block;
+    margin-left: 60%;
+    text-align: right;
+    margin-top: 2em;
+    margin-right: 20px;
+}
+/* Cambiar max-width en media */
+/* Texto y Imagen 1 - Fin */
+/* Texto y Imagen 2 */
+.background4{
+	background: url(../img/15.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #cfcfcf;
+    padding: 8% 0 5% 0;
+}
+.izquierda h1{
+   color: black;
+   max-width: 600px;
+   display: block;
+   margin-left: 15%;
+   font-size: 20px;
+   text-decoration: underline;
+   margin-bottom: 2em; 
+}
+.texto2{
+    color: black;    
+    max-width: 600px;
+    display: block;
+    margin-left: 2%;
+    text-align: left;
+    word-wrap: break-word;
+    margin-right: 20px;
+}
+.texto2a{
+    color: black;    
+    max-width: 600px;
+    display: block;
+    margin-left: 2%;
+    text-align: left;
+    margin-top: 2em;
+    margin-right: 20px;
+}
+.logomini{
+   margin-top: 4em;
+   margin-left: 10em;
+   width: 20em;
+}
+/* Texto y Imagen 2 - Fin */
+/* Header */
+.textoboton{
+    text-align: center;
+    font-size: 30px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+/* Header - Fin */
+/* Boton */
+.boton{
+    background-color: #222222;
+    border: none;
+    color: black;
+    padding: 10px 40px;
+    text-align: center;
+    font-size: 16px;
+    filter: sepia(25%);
+    display: block;
+    margin: 0 auto;
+}
+.boton:hover{
+    background-color: aliceblue;
+    color: white;
+}
+.boton{
+    margin-top: 2em;
+    transition: all 2s linear;
+}
+/* Boton - Fin */
+.contactos{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 2em;
+}
+.textocontactos{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+/* Header - Fin */
+/* Footer */
+.derechos{
+    color: white;
+    background: #11162a; 
+    font-size: 15px;
+    display: block;
+}
+.footerContainer{
+    padding: 2em 1em 2em 1em;
+}
+
+.footerContainer .derecha{
+    float: right;
+}
+/* Footer - Fin */
+/* Detalles */
+.traduccion{
+    font-size: 15px;
+    margin-left: 80%;
+    display: inline-block;
+    text-align: right;
+}
+.subrayado{
+    text-decoration: underline;
+}
+.nada{
+    display: none;
+}
+/* Detalles - Fin */
+/* Animacion */
+@keyframes multicolor {
+    0%   {background-color:red;}
+    25%  {background-color:black;}
+    50%  {background-color:red;}
+    75%  {background-color:black;}
+    100% {background-color:red;}
+}
+@keyframes multicolor2 {
+    0%   {background-color:red;}
+    25%  {background-color:black;}
+    50%  {background-color:red;}
+    75%  {background-color:black;}
+    100% {background-color:red;}
+}
+/* Media */
+@media screen and (min-width: 1080px) {
+    body p{
+        font-size: 15px;
+    }
+    #derecha h1{
+        margin-left: 45%;
+    }
+}
+/* Media - Fin */
+/* Boostrap */
+.numeros{
+    text-align: center;
+}
+li {
+    font-size: 14px; !important;  
+}
